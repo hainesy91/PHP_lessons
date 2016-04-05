@@ -24,3 +24,12 @@ print <<<MENU
 </html>
 MENU;
 ?>
+
+<!--When you interpolate a variable into a string in a place where the PHP interpreter could be confused about the variable name, surround the variable with curly braces to remove the confusion.  -->
+
+<?php
+$preparation = "Braise";
+$meat = "Beef";
+
+print "{$preparation}d $meat with Vegetables";
+?>
