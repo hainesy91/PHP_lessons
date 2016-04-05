@@ -77,6 +77,4 @@ $birthday = $birthday + 1;
 $years_left = $years_left - 1;
 //Subtract another one from $years_left
 --$years_left;
-
-
 ?>
