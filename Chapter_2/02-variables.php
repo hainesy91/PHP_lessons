@@ -54,3 +54,13 @@ $price = $price + 3;
 $price += 3;
 ?>
 
+<!--Combing the assingment operator with the string concatenation operator appends a value to a string.-->
+
+<?php
+$username1 = "chris";
+$domain1 = "@example.com";
+
+//Concatenate the regular way
+$username1 = $username1 . $domain1;
+$username1 .=$domain1;
+?>
