@@ -44,3 +44,13 @@ print 'The total cost is ' .$total_cost;
 print "\n";
 print $email_address;
 ?>
+
+<!-- The assingment operator can be combined with arithmatic and string operators for a concise way to modify a value. An operator followed by the equals sign means "apply this operator to the variable". -->
+
+<?php
+//Add 3 the regular way
+$price = $price + 3;
+//Add 3 with the combined operator
+$price += 3;
+?>
+
