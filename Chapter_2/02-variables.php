@@ -64,3 +64,19 @@ $domain1 = "@example.com";
 $username1 = $username1 . $domain1;
 $username1 .=$domain1;
 ?>
+
+<!--Incrementing and decrementing variables by 1 are so common that these operations have their own operators. The ++ operator adds 1 to a variable, and the -- operators subtracts 1. These operators are usually used in for () loops. But you can use them on any variable holding a number. -->
+
+<?php
+//Add one to birthday
+$birthday = $birthday + 1;
+//Add another one to $birthday
+++$birthday;
+
+//Subtract 1 from $years_left
+$years_left = $years_left - 1;
+//Subtract another one from $years_left
+--$years_left;
+
+
+?>
