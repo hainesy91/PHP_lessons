@@ -21,3 +21,26 @@ $page_footer = <<<HTML_FOOTER
 </html>
 HTML_FOOTER;
 ?>
+
+<!--Variable names must begin with a letter underscore. Variable names are case sensitive. That means that variables named $dinner, $Dinner and $DINNER are separate and distinct with no more in common than if they were named $breakfast, $lunch and $dinner. 
+
+Arithmatic and string operators work on variables containing numbers or strings just like they do on literal numbers and strings. -->
+
+<?php
+$price = 3.95;
+$tax_rate = 0.08;
+
+$tax_amount = $price * $tax_rate;
+$total_cost = $price + $tax_amount;
+
+$username = 'chris';
+$domain = '@hainesy.com';
+
+$email_address = $username . $domain;
+
+print 'The tax is ' . $tax_amount; 
+print "\n"; //this prints a linebreak//
+print 'The total cost is ' .$total_cost;
+print "\n";
+print $email_address;
+?>
