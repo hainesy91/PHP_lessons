@@ -25,5 +25,33 @@ print $first_name . $last_name;
 print $full_name;
 
 print strlen($full_name);
+?>
+
+<?php
+$i = 1;
+$j = 2;
+
+print "$i $j"; 
+
+echo '&nbsp';
+
+$i++; $j *= 2;
+print "$i $j";
+
+echo '&nbsp';
+
+$i++; $j *= 2;
+print "$i $j";
+
+echo '&nbsp';
+
+$i++; $j *= 2;
+print "$i $j";
+
+echo '&nbsp';
+
+$i++; $j *= 2;
+print "$i $j";
+
 
 ?>
