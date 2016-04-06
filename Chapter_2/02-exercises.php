@@ -15,6 +15,15 @@ print "Total cost of the meal is \$$total";
 ?>
 
 <?php
+//Exercise 4 - Printing name and length of name string
+$first_name = "Chris ";
+$last_name = "Haines";
 
+$full_name = $first_name . $last_name;
+
+print $first_name . $last_name; 
+print $full_name;
+
+print strlen($full_name);
 
 ?>
